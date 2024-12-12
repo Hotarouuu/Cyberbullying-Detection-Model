@@ -52,7 +52,8 @@ Juntamente com os modelos, forneci dois arquivos .py. O primeiro contém uma fun
 - O PCA foi treinado e ajustado especificamente para os dados de treinamento, portanto, também é obrigatório para garantir um desempenho adequado do SYA-D1. Sem ele, a performance do modelo será comprometida.
 - Como mencionado, o modelo de embeddings utilizado foi o nomic-embed-text em conjunto com o Ollama. Embora seja recomendado usar essa configuração, você tem liberdade para testar com outros modelos de embeddings, se desejar.
 - O PCA se chama "pce" na pasta, pois foi exportado com o mesmo nome da variável durante o treinamento.
-- O modelo foi treinado com poucos dados, em torno de 10000 linhas de um dataset, pela limitação computacional. Ele está em fase inicial, mas ele será atualizado com o tempo.
+- O SYA-D1 foi treinado com poucos dados, em torno de 10000 linhas de um dataset, pela limitação computacional. Ele está em fase inicial, mas ele será atualizado com o tempo.
+- Atualmente o SYA-D1 apenas está disponível em inglês. Em breve será atualizado para português do Brasil.
 
 ## Contato
 Para mais informações sobre este projeto, você pode me contatar:

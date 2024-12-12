@@ -1,5 +1,8 @@
 # Modelo de Detecção de Cyberbullying em Mensagens
 
+![istockphoto-1498830411-612x612](https://github.com/user-attachments/assets/bc8b682b-5064-4e76-8b05-4daa2f2a4988)
+
+
 ## Início
 
 Este é um projeto voltado para a criação de um modelo de classificação, denominado SYA-D1, com o objetivo de processar mensagens de texto e classificá-las como agressivas ou não-agressivas.

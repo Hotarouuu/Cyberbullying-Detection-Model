@@ -51,6 +51,7 @@ Juntamente com os modelos, forneci dois arquivos .py. O primeiro contém uma fun
 - Os arquivos fornecidos podem ser modificados ou usados como base para a criação do seu código. No entanto, é importante destacar que as etapas descritas são obrigatórias para o funcionamento do SYA-D1. Se não forem seguidas corretamente, o modelo não funcionará.
 - O PCA foi treinado e ajustado especificamente para os dados de treinamento, portanto, também é obrigatório para garantir um desempenho adequado do SYA-D1. Sem ele, a performance do modelo será comprometida.
 - Como mencionado, o modelo de embeddings utilizado foi o nomic-embed-text em conjunto com o Ollama. Embora seja recomendado usar essa configuração, você tem liberdade para testar com outros modelos de embeddings, se desejar.
+- O PCA se chama "pce" na pasta, pois foi exportado com o mesmo nome da variável durante o treinamento.
 
 ## Contato
 Para mais informações sobre este projeto, você pode me contatar:

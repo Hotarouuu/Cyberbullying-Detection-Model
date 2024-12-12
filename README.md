@@ -44,10 +44,6 @@ As etapas descritas são essenciais para o correto funcionamento do SYA-D1, por�
 
 Juntamente com os modelos, forneci dois arquivos .py. O primeiro contém uma função que simplifica o uso do SYA-D1, tornando a implementação mais fácil, mas também pode servir como base para outros códigos. O segundo arquivo é dedicado a testar o SYA-D1 de forma isolada.
 
-## Contato
-Para mais informações sobre este projeto, você pode me contatar:
-
-LinkedIn: [Seu LinkedIn](http://linkedin.com/in/lucas-moraes-4b3a30284)
 
 
 ## Avisos Importantes
@@ -55,4 +51,9 @@ LinkedIn: [Seu LinkedIn](http://linkedin.com/in/lucas-moraes-4b3a30284)
 - Os arquivos fornecidos podem ser modificados ou usados como base para a criação do seu código. No entanto, é importante destacar que as etapas descritas são obrigatórias para o funcionamento do SYA-D1. Se não forem seguidas corretamente, o modelo não funcionará.
 - O PCA foi treinado e ajustado especificamente para os dados de treinamento, portanto, também é obrigatório para garantir um desempenho adequado do SYA-D1. Sem ele, a performance do modelo será comprometida.
 - Como mencionado, o modelo de embeddings utilizado foi o nomic-embed-text em conjunto com o Ollama. Embora seja recomendado usar essa configuração, você tem liberdade para testar com outros modelos de embeddings, se desejar.
+
+## Contato
+Para mais informações sobre este projeto, você pode me contatar:
+
+LinkedIn: [Seu LinkedIn](http://linkedin.com/in/lucas-moraes-4b3a30284)
 

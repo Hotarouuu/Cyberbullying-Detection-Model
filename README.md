@@ -39,7 +39,7 @@ Para isso você deve seguir as seguintes etapas:
 
 As etapas descritas são essenciais para o correto funcionamento do SYA-D1, porém, eu ofereço uma solução mais simples:
 
-Juntamente com os modelos, forneci dois arquivos .py. O primeiro contém uma função que simplifica o uso do modelo, tornando a implementação mais fácil, mas também pode servir como base para outros códigos. O segundo arquivo é dedicado a testar o modelo de forma isolada.
+Juntamente com os modelos, forneci dois arquivos .py. O primeiro contém uma função que simplifica o uso do SYA-D1, tornando a implementação mais fácil, mas também pode servir como base para outros códigos. O segundo arquivo é dedicado a testar o SYA-D1 de forma isolada.
 
 ## Avisos Importantes
 

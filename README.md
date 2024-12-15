@@ -49,7 +49,7 @@ As etapas descritas são essenciais para o correto funcionamento do SYA-D2.
 - Como mencionado, o modelo de embeddings utilizado foi o nomic-embed-text em conjunto com o Ollama. Embora seja recomendado usar essa configuração, você tem liberdade para testar com outros modelos de embeddings, se desejar. Basta modificar a classe.
 - O modelo SYA-D2 foi treinado com um número limitado de dados, aproximadamente 40.000 linhas, devido a restrições computacionais. Embora esteja em uma fase inicial de desenvolvimento, sua arquitetura é mais avançada em comparação com o modelo SYA-D1. Com o tempo, o SYA-D2 será constantemente aprimorado e atualizado para melhorar seu desempenho e precisão.
 - Atualmente o SYA-D2 apenas está disponível em inglês. Em breve será atualizado para português do Brasil.
-- As resposta dos SYA-D2 são 1 para detecção de mensagens agressivas e 0 para não agressivas.
+- O SYA-D2 oferece apenas duas respostas (Classes): 1 para detecção de mensagens agressivas e 0 para não agressivas.
 
 ## Informações
 

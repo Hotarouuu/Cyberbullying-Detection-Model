@@ -5,57 +5,54 @@
 
 ## Início
 
-Este é um projeto voltado para a criação de um modelo de classificação, denominado SYA-D1, com o objetivo de processar mensagens de texto e classificá-las como agressivas ou não-agressivas.
+Este é um projeto voltado para a criação de um modelo de classificação, denominado SYA-D2, com o objetivo de processar mensagens de texto e classificá-las como agressivas ou não-agressivas.
 
 ## Descrição
 
 Esse projeto, visando contribuir com a detecção de Cyberbullying na internet, utiliza o dataset "Cyberbullying Detection Dataset for Online Content" disponilizado no Kaggle para o treinamento.
 
-O processo para o desenvolvimento do SYA-D1 pode ser separado em:
+O processo para o desenvolvimento do SYA-D2 pode ser separado em:
 
 - Pré-Analise dos dados
-- Processamento de Linguagem Natural
-- Embedding
-- Treinamento utilizando o algoritmo RandomForest do Scikit-learn
+- Embedding (NLP)
+- Treinamento utilizando Rede Neural (MultiLayer Perceptron Classifier) do Scikit-learn
 - Validação cruzada
 - Teste com dados novos
 
-Para melhor performance no SYA-D1, foi utilizado o modelo de embedding chamado 'nomic-embed-text' juntamente do Ollama (Ollama e não Llama) para rodar ele no código de maneira mais simples.
+Para melhor performance no SYA-D2, foi utilizado o modelo de embedding chamado 'nomic-embed-text' juntamente do Ollama (Ollama e não Llama) para rodar ele no código de maneira mais simples.
 
 
 ## Tecnologias usadas
 
 - Linguagem Python
-- Bibliotecas: Ollama, Scikit-learn, Numpy, Pandas, NLTK
+- Bibliotecas: Ollama, Scikit-learn, Numpy, Pandas
 - Modelo de Embedding: 'nomic-embed-text'
 - Jupyter Notebook
 
 ## Como usar?
 
-O SYA-D1 foi treinado através de etapas e cada etapa é crucial para que o modelo possa classificar os dados que você deseja. No nosso caso os dados são mensagem, textos em linguagem natural.
+O SYA-D2 foi treinado através de etapas e cada etapa é crucial para que o modelo possa classificar os dados que você deseja. No nosso caso os dados são mensagem, textos em linguagem natural.
 
 Para isso você deve seguir as seguintes etapas:
 
-- Embedding dos dados
-- Transformar a lista retornada pelo Embedding em um array numpy para melhor performance
-- Uso do PCA, disponibilizado como modelo também, para diminuir as dimensões do array de vetores
+- Baixa o Ollama no seu ambiente 
+- Após baixar o Ollama baixe o modelo de embedding através do comando "ollama pull nomic-embed-text"
+- Importe a classe SYAEmbedding do arquivo "embedding"
+- Importe o modelo usando a biblioteca joblib dentro do seu código
+- Caso necessário teste usando o arquivo de teste incluso na pasta arquivo
 
-As etapas descritas são essenciais para o correto funcionamento do SYA-D1, porém, eu ofereço uma solução mais simples:
-
-Juntamente com os modelos, forneci dois arquivos .py. O primeiro contém uma função que simplifica o uso do SYA-D1, tornando a implementação mais fácil, mas também pode servir como base para outros códigos. O segundo arquivo é dedicado a testar o SYA-D1 de forma isolada.
-
+As etapas descritas são essenciais para o correto funcionamento do SYA-D2.
 
 
 ## Avisos Importantes
 
-- Os arquivos fornecidos podem ser modificados ou usados como base para a criação do seu código. No entanto, é importante destacar que as etapas descritas são obrigatórias para o funcionamento do SYA-D1. Se não forem seguidas corretamente, o modelo não funcionará.
-- O PCA foi treinado e ajustado especificamente para os dados de treinamento, portanto, também é obrigatório para garantir um desempenho adequado do SYA-D1. Sem ele, a performance do modelo será comprometida.
-- Como mencionado, o modelo de embeddings utilizado foi o nomic-embed-text em conjunto com o Ollama. Embora seja recomendado usar essa configuração, você tem liberdade para testar com outros modelos de embeddings, se desejar.
-- O PCA se chama "pce" na pasta, pois foi exportado com o mesmo nome da variável durante o treinamento.
-- O SYA-D1 foi treinado com poucos dados, em torno de 10000 linhas de um dataset, pela limitação computacional. Ele está em fase inicial, mas ele será atualizado com o tempo.
-- Atualmente o SYA-D1 apenas está disponível em inglês. Em breve será atualizado para português do Brasil.
+- Como mencionado, o modelo de embeddings utilizado foi o nomic-embed-text em conjunto com o Ollama. Embora seja recomendado usar essa configuração, você tem liberdade para testar com outros modelos de embeddings, se desejar. Basta modificar a classe.
+- O modelo SYA-D2 foi treinado com um número limitado de dados, aproximadamente 40.000 linhas, devido a restrições computacionais. Embora esteja em uma fase inicial de desenvolvimento, sua arquitetura é mais avançada em comparação com o modelo SYA-D1. Com o tempo, o SYA-D2 será constantemente aprimorado e atualizado para melhorar seu desempenho e precisão.
+- Atualmente o SYA-D2 apenas está disponível em inglês. Em breve será atualizado para português do Brasil.
+- As resposta dos SYA-D2 são 1 para detecção de mensagens agressivas e 0 para não agressivas.
 
 ## Contato
+
 Para mais informações sobre este projeto, você pode me contatar:
 
 LinkedIn: [Seu LinkedIn](http://linkedin.com/in/lucas-moraes-4b3a30284)

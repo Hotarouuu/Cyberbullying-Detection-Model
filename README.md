@@ -51,6 +51,14 @@ As etapas descritas são essenciais para o correto funcionamento do SYA-D2.
 - Atualmente o SYA-D2 apenas está disponível em inglês. Em breve será atualizado para português do Brasil.
 - As resposta dos SYA-D2 são 1 para detecção de mensagens agressivas e 0 para não agressivas.
 
+## Informações
+
+O modelo SYA-D2, após passar por um processo de validação cruzada extensiva, demonstrou uma performance de 84% de acurácia (0,84) ao ser testado em dados novos — aqueles que não foram utilizados no treinamento. Esse resultado foi obtido após uma análise do comportamento do modelo em diferentes subconjuntos dos dados, permitindo uma avaliação mais precisa de sua capacidade de generalização.
+
+A validação cruzada é uma técnica importante para garantir que o modelo não sofra overfitting (ajustado excessivamente aos dados de treinamento) e que ele seja capaz de performar de maneira consistente quando exposto a dados desconhecidos. A alta acurácia indica que o SYA-D2 conseguiu aprender de maneira eficaz os padrões presentes no conjunto de dados e está apto a realizar previsões de qualidade, mesmo com exemplos que não viu durante o processo de treinamento.
+
+Esse desempenho é um progresso do aprimoramento do modelo, que foi desenvolvido com técnicas mais avançadas e uma base de dados mais robusta em comparação ao modelo anterior, SYA-D1. Embora o modelo ainda esteja em fase de evolução, o SYA-D2 já apresenta resultados promissores e será atualizado periodicamente para incorporar novos dados e técnicas, visando sempre otimizar sua precisão e robustez.
+
 ## Contato
 
 Para mais informações sobre este projeto, você pode me contatar:
